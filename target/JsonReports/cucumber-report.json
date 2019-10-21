@@ -1,0 +1,96 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 193000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TravelMoneyStepDefinition.before(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "validate-commbank-landing-page;",
+        "after": [
+          {
+            "result": {
+              "duration": 56400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TravelMoneyStepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3117595500,
+              "error_message": "java.lang.NullPointerException: null value in entry: url\u003dnull\r\n\tat com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)\r\n\tat com.google.common.collect.SingletonImmutableBiMap.\u003cinit\u003e(SingletonImmutableBiMap.java:42)\r\n\tat com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)\r\n\tat com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat stepDefinition.TravelMoneyStepDefinition.userNavigatesToCommbankHomepage(TravelMoneyStepDefinition.java:35)\r\n\tat ✽.Given User navigates to Commbank Homepage(TravelMoney.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User navigates to Commbank Homepage",
+            "match": {
+              "location": "TravelMoneyStepDefinition.userNavigatesToCommbankHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Validate the navigation to Travel money overseas section",
+            "match": {
+              "location": "TravelMoneyStepDefinition.validate_the_travel_money_overseas_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Subtopics exists in section",
+            "match": {
+              "location": "TravelMoneyStepDefinition.subtopicsExistsInSection()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "validate netbank details",
+            "match": {
+              "location": "TravelMoneyStepDefinition.validateNetbankDetails()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Commbank landing page",
+    "description": "",
+    "id": "validate-commbank-landing-page",
+    "keyword": "Feature",
+    "uri": "TravelMoney.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@serviceNSW"
+      }
+    ]
+  }
+]
