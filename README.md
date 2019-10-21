@@ -10,6 +10,7 @@
 6. Logging: log4j
 7. Browsers :Chrome, IE
 8. Test Runner: TestNGCucumberRunner
+9. Circle CI for continous Integration
 
 ## Design Pattern and Features
  Page Object design + BDD framework using Cucumber.
